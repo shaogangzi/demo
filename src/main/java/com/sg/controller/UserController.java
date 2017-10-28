@@ -33,9 +33,9 @@ public class UserController {
 	         user.setAge(18);
 	         boolean register = systemService.register(user);
 	         if(register){
+	        	 
 	        	 return "success";
 	         }
-	         return "loginerror";
-	         
+	         return "loginerror";       
 	}
 }
