@@ -1,0 +1,23 @@
+[INFO] [2017-10-27 09:37:14][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization started
+  [INFO] [2017-10-27 09:37:14][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Fri Oct 27 09:37:14 CST 2017]; root of context hierarchy
+  [INFO] [2017-10-27 09:37:14][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+  [INFO] [2017-10-27 09:37:14][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+  [INFO] [2017-10-27 09:37:14][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.sg.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+  [INFO] [2017-10-27 09:37:15][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/resources] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+  [INFO] [2017-10-27 09:37:15][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization completed in 787 ms
+  [WARN] [2017-10-27 09:37:55][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'SpringMVC'
+  [INFO] [2017-10-27 09:39:41][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization started
+  [INFO] [2017-10-27 09:39:41][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Fri Oct 27 09:39:41 CST 2017]; root of context hierarchy
+  [INFO] [2017-10-27 09:39:41][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+  [INFO] [2017-10-27 09:39:41][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+  [INFO] [2017-10-27 09:39:41][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.sg.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+  [INFO] [2017-10-27 09:39:41][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/resources] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+  [INFO] [2017-10-27 09:39:41][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization completed in 606 ms
+  [INFO] [2017-10-27 09:39:58][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization started
+  [INFO] [2017-10-27 09:39:58][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Fri Oct 27 09:39:58 CST 2017]; root of context hierarchy
+  [INFO] [2017-10-27 09:39:59][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+  [INFO] [2017-10-27 09:39:59][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+  [INFO] [2017-10-27 09:39:59][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/user/test],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.sg.controller.UserController.test(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+  [INFO] [2017-10-27 09:39:59][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/resources] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+  [INFO] [2017-10-27 09:39:59][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization completed in 624 ms
+  

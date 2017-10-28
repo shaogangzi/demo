@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+
+<mapper namespace="com.sg.mapper.UserMapper">
+
+  <insert id="register" parameterType="com.sg.bean.User">
+     INSERT into 
+     user(username,pwd,age,sex,department) 
+     VALUES(#{username},#{pwd},#{age},#{sex},#{department});
+  
+  </insert>
+
+
+</mapper>
